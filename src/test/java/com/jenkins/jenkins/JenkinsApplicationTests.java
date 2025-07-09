@@ -6,8 +6,13 @@ import org.springframework.boot.test.context.SpringBootTest;
 @SpringBootTest
 class JenkinsApplicationTests {
 
+//    @Test
+//    void contextLoads() {
+//    }
+
     @Test
-    void contextLoads() {
+    void Hello() {
+        System.out.println("Hello World!");
     }
 
 }
